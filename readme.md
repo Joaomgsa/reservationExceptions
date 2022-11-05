@@ -7,7 +7,12 @@ novamente a reserva com os dados atualizados. O programa não deve aceitar dados
 inválidos para a reserva, conforme as seguintes regras:
 </p>
 
-### - Alterações de reserva só podem ocorrer para datas futuras
-### - A data de saída deve ser maior que a data de entrada
+### Regras de Negócio:
+#### - Alterações de reserva só podem ocorrer para datas futuras
+#### - A data de saída deve ser maior que a data de entrada
 
+### Diagrama da classe reserva:
 <img src="reservation.png">
+
+### Como deve ser a saída da reserva:
+<img src="examples.png">
