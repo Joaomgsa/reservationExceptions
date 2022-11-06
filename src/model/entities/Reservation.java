@@ -60,9 +60,9 @@ public class Reservation {
     public String toString() {
         return  "Room : "
                 + roomNumber
-                + ", Check-in: "+
+                + ", Check-in : "+
                 sdf.format(checkIn)
-                + ", Check-out: "+
+                + ", Check-out:  "+
                 sdf.format(checkOut)
                 + ","
                 + duration()
